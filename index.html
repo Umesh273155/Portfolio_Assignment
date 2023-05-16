@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio website design tutorial</title>
+    <!--font awesomew cdn link-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+   <!--- custom file link-->
+   <link rel="stylesheet"href="style.css">
+
+</head>
+<body>
+<header>
+    <div class="user">
+        <img src="umesh5.jpg"alt="">
+        <h3 class="name">Umesh Kumar</h3>
+        <p class="post">front end developer</p>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+
+        </ul>
+    </nav>
+</header>
+<!--header section end-->
+<div id="menu"class="fas fa-bars"></div>
+
+<section class="home"id="home">
+    <h3>Hi THERE !</h3>
+    
+    <h1>I'M  <span> Umesh... </span></h1>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum adipisci minus tempora aliquid nemo. Pariatur error libero officia a facilis esse similique, architecto tenetur cumque ducimus perspiciatis amet ab reprehenderit?</p>
+<a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button></a>
+</section>
+<!--home section ends-->
+<!--about section start-->
+<section class="about"id="about">
+    <h1 class="heading"><span>about </span> me</h1>
+    <div class="row">
+        <div class="info">
+            <h3><span>name :</span> Umesh Chaurasiya</h3>
+            <h3><span>age :</span>22</h3>
+            <h3><span>qualification :</span>Btech.</h3>
+            <h3><span>post :</span>front end developer</h3>
+            <h3><span>language :</span>hindi ,english</h3>
+            <a href="#"><button class="btn"onclick="myfunc()">Resume</button></a>
+        </div>
+        <div class="counter">
+             <div class="box">
+                <span>1</span>
+                <h3>year of experience</h3> 
+            </div>
+              <div class="box">
+               <span>100+</span>
+                <h3>happy customers</h3>
+            </div>
+            <div class="box">
+                <span>10+</span>
+                <h3>project completed</h3>
+            </div>
+            <div class="box">
+                <span>5+</span>
+                <h3>awards won</h3>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--education section-->
+<section class="education"id="education">
+    <h1 class="heading">My  <span>  eduation</span></h1>
+    <div class="box-container">
+        <div class="box"> 
+            <!-- <i class="fas fa-graduation-cap"></i> -->
+            <span>2022</span>
+            <h3 class="study">front end development internship</h3>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde hic ea iste repellendus ratione aliquid facilis architecto sit optio nostrum?</p>
+        </div>
+        <div class="box"> 
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022</span>
+            <h3 class="study">Graduation</h3>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde hic ea iste repellendus ratione aliquid facilis architecto sit optio nostrum?</p>
+        </div>
+        <div class="box"> 
+            <i class="fas fa-graduation-cap"></i>
+            <span>2017</span>
+            <h3 class="study">Intermediate</h3>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde hic ea iste repellendus ratione aliquid facilis architecto sit optio nostrum?</p>
+        </div>
+        <div class="box"> 
+            <i class="fas fa-graduation-cap"></i>
+            <span>2015</span>
+            <h3 class="study">High school</h3>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde hic ea iste repellendus ratione aliquid facilis architecto sit optio nostrum?</p>
+        </div>
+    </div>
+</section>
+<!--education section end-->
+<!--portfolio section start-->
+<section class="portfolio"id="portfolio">
+    <h1 class="heading">my<span>portfolio</span></h1>
+ <div class="box-container">
+    <div class="box">
+        <img src="img11.webp"alt="">
+    </div>
+    <div class="box">
+        <img src="img16.jpg"alt="">
+    </div>
+    <div class="box">
+        <img src="img9.webp"alt="">
+    </div>
+    <div class="box">
+        <img src="img14.webp"alt="">
+    </div>
+    <div class="box">
+        <img src="img10.webp"alt="">
+    </div>
+    <div class="box">
+        <img src="img2.webp"alt="">
+    </div>
+ </div>   
+</section>
+<!--contact section start-->
+<section class="contact"id="contact">
+<h1 class="heading"><span>contact </span> me</h1>
+<div class="row">
+    <div class="content">
+        <h3 class="title">contact info</h3>
+        <div class="info">
+            <h3><i class="fas fa-envelope"></i>ucha255523@gmail.com</h3>
+            <h3><i class="fas fa-phone"></i>+91-6388 3643 26</h3>
+            <h3><i class="fas fa-phone"></i>+91-9984 9528 64</h3>
+            <h3><i class="fas fa-map-marker-alt"></i>Uttar Pradesh, india - 273155.</h3>
+
+        </div>
+    </div>
+    <form action=""class="teli">
+        <input type="text"placeholder="name"class="box">
+        <input type="email"placeholder="email"class="box">
+        <input type="text"placeholder="project"class="box">
+        <textarea name=""id=""cols="30"rows="10"class="box message"placeholder="message"></textarea>
+        <button type="submit"class="btn">send<i class="fas fa-paper-plane"></i></button>
+    </form>
+    
+    
+</div>
+ <a href="#home">
+    <img src="scroll-top-img.png"alt="">
+</a> 
+
+</section>
+<!-- scroll top button-->
+ <!-- <a href="#home">
+    <img src="scroll-top-img"alt="">
+</a>  -->
+ 
+
+<!--jquery cdn link-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--custom js file link-->
+<script src="script.js"></script>
+</body>
+</html>
